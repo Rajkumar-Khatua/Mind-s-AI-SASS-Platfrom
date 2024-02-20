@@ -16,7 +16,7 @@ import { ModeToggle } from "./mode-toggle";
 const MobileSideBar = () => {
   return (
     <Sheet>
-        <SheetTrigger asChild>
+        <SheetTrigger>
           <Button variant="ghost" size="icon" className="md:hidden">
             <MenuIcon />
             <ModeToggle />
